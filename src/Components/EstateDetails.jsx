@@ -32,7 +32,7 @@ const EstateDetails = () => {
 
 
   return (
-    <div className="p-4 mx-auto container min-h-screen w-[1170px]">
+    <div className="p-4 min-h-screen max-w-[1170px] container mx-auto">
       <img className='rounded-2xl mb-4' src={estate.image} alt={estate.estate_title} />
       <h2 className='text-3xl font-bold mb-4'>{estate.estate_title}</h2>
       <p className='mb-4'>{estate.description}</p>
