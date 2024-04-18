@@ -36,10 +36,10 @@ const EstateDetails = () => {
       <img className='rounded-2xl mb-4' src={estate.image} alt={estate.estate_title} />
       <h2 className='text-3xl font-bold mb-4'>{estate.estate_title}</h2>
       <p className='mb-4'>{estate.description}</p>
-      <p><span className='text-xl font-semibold text-primary'>Price:</span> {estate.price}</p>
-      <p><span className='text-xl font-semibold text-primary'>Status:</span> {estate.status}</p>
-      <p><span className='text-xl font-semibold text-primary'>Area:</span> {estate.area}</p>
-      <p><span className='text-xl font-semibold text-primary'>Location:</span> {estate.location}</p>
+      <p><span className='text-l font-semibold text-primary'>Price:</span> {estate.price}</p>
+      <p><span className='text-l font-semibold text-primary'>Status:</span> {estate.status}</p>
+      <p><span className='text-l font-semibold text-primary'>Area:</span> {estate.area}</p>
+      <p><span className='text-l font-semibold text-primary'>Location:</span> {estate.location}</p>
       <div className='mt-4 mb-4'>
         <strong>Facilities:</strong>
         <ul>
