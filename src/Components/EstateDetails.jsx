@@ -12,7 +12,7 @@ const EstateDetails = () => {
 
   useEffect(() => {
     
-    fetch('../../public/Properties.json')
+    fetch('Properties.json')
       .then(res => res.json())
       .then(data =>
          {
