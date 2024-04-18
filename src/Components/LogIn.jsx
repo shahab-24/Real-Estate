@@ -75,7 +75,7 @@ const LogIn = () => {
 
       <div className='flex items-center justify-between'>
         <small>Did not have an account?</small>
-        <Link to='/register'><button>Please Register</button></Link>
+        <Link to='/register'><button className='text-xl font-semibold text-primary'>Register</button></Link>
         <button onClick={handleGoogleSignIn} className="label-text-alt font-bold text-l btn btn-ghost">GOOGLE</button>
         </div>
       
