@@ -66,7 +66,7 @@ const Register = () => {
         </div>
         {error && <div className="text-red-500">{error}</div>}
         <div className="form-control mt-6">
-          <button className="btn btn-primary">Register</button>
+          <button className="btn btn-primary text-xl">Register</button>
           
         </div>
         <div className='flex items-center justify-between'>
