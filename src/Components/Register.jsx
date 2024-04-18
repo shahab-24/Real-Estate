@@ -71,7 +71,7 @@ const Register = () => {
         </div>
         <div className='flex items-center justify-between'>
         <small>Already have an account?</small>
-        <Link to='/login'><button className='btn btn-outline'>Please LogIn</button></Link>
+        <Link to='/login'><button className='btn btn-outline text-xl font-semibold text-primary'>Please LogIn</button></Link>
         </div>
       </form>
     </div>
